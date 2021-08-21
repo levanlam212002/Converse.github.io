@@ -1,0 +1,231 @@
+div.logo{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ div.text-center{
+     padding:1%;
+ }
+ .text-center a{
+     display: none;
+     text-decoration: none;
+     color: white;
+ }
+ .text-center .sub{
+     display: none;
+ }
+ul.menu{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color:rgb(48, 46, 46);
+    display: flex;
+}
+ul.menu > li > a{
+    text-decoration: none;
+    display: block;
+    padding:11%;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+}
+ul.menu > li{
+    width: 15%;
+}
+ul.menu > li > a:hover{
+    background-color: rgb(207, 207, 216) ;
+    color: rgb(10, 10, 10);
+}
+ul.menu{
+    justify-content:center;
+}
+div.converse{
+    text-align: center;
+}
+div.converse img{
+    width: 49.8%;
+    height: 350px;
+}
+div.item{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+div.iteam{
+    width: auto;
+}
+div.items{
+    display:flex;
+    background-color:black;
+    color: white;
+    padding: 2%;
+}
+.icon{
+    display:block;
+    position:fixed;
+    bottom:1%;
+    right:2%;
+    color: rgb(53, 51, 51);
+}
+.icon:hover{
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+a.iconfb{
+    color:rgb(127, 129, 133);
+}
+a.iconfb:hover{
+    color: rgb(238, 226, 226);
+}
+a.iconins{
+    color:rgb(127, 129, 133);
+}
+a.iconins:hover{
+    color: rgb(238, 226, 226);
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h6{
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input.sdt[type=number]::-webkit-inner-spin-button, 
+input.sdt[type=number]::-webkit-outer-spin-button{ 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input{
+    width: 200px;
+    height: 50px;
+}
+div.form{
+    display:inline-flex;
+    width: 47%;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+div.forms{
+    width: 30%;
+    display:block;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+div.form-big{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+legend{
+    text-align: center;
+    font: 30px sans-serif;
+}
+div.button{
+    padding: 1%;
+}
+div.button button{
+    margin-left: 48%;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(65, 62, 61);
+    color: honeydew;
+}
+h1{
+    text-align: center;
+    border-bottom: rgb(78, 77, 77) dashed;
+    padding-top: 2%;
+}
+@media screen and (max-width:813px){
+    ul.menu >li{
+        display: none;
+    }
+    div.logo{
+     justify-content: space-between;
+     }
+    .text-center a{
+        display: block;
+    }
+    .subs:hover .sub{
+     display:block;
+    }
+    .sub li a{
+         text-decoration: none;
+         text-align: left;
+         font-size: 80%;
+    }
+    .sub li a:hover{
+        color: rgb(83, 78, 78);
+    }
+    .sub{
+     list-style-type: none;
+    }
+     div.item{
+         display: none;
+     }
+     .icon{
+        font-size: 10px;
+    }
+    div.forms{
+        width: 60%;
+    }
+    div.form{
+        width: 60%;
+    }
+    legend{
+        font: 15px sans-serif;
+    }
+    div.form textarea{
+        columns: 6;
+    }
+    div.form-big{
+        justify-content: left;
+    }
+    body{
+        margin: 0;
+    }
+    ul.text-center.subs{
+        margin: 0 0 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    fieldset.fieldset{
+        width:100%;
+        margin: 0;
+        padding: 0;
+        font: 10px sans-serif;
+    }
+    input{
+        width: 160px;
+        height: 40px;
+    }
+    textarea{
+        width: 200px;
+        height: 40px;
+    }
+    div.form-big{
+        justify-content: center;
+    }
+    div.button button{
+        margin-left: 30%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    div.converse img{
+        width: 100%;
+        height: 150px;
+    }
+ }
+ div.item a{
+    text-decoration: none;
+    color: white;
+}
+div.item a:hover{
+    color: rgb(97, 92, 92);
+}

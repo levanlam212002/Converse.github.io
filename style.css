@@ -1,0 +1,293 @@
+ div.logo{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ div.text-center{
+     padding:1%;
+ }
+ .text-center a{
+     display: none;
+     text-decoration: none;
+     color: white;
+ }
+.text-center .sub{
+     display: none;
+ }
+ul.menu{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color:rgb(48, 46, 46);
+    display: flex;
+}
+ul.menu > li > a{
+    text-decoration: none;
+    display: block;
+    padding:8.5%;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+}
+ul.menu > li{
+    width: 15%;
+}
+ul.menu > li > a:hover{
+    background-color: rgb(207, 207, 216) ;
+    color: rgb(10, 10, 10);
+}
+ul.menu{
+    justify-content:center;
+}
+ul.menu:last-child{
+    color: white;
+}
+div.item{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+div.iteam{
+    width: auto;
+}
+div.items{
+    display:flex;
+    background-color:black;
+    color: white;
+    padding: 2%;
+}
+.icon{
+    display:block;
+    position:fixed;
+    bottom:1%;
+    right:2%;
+    color: rgb(53, 51, 51);
+}
+.icon:hover{
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+hr{
+    width: 60%;
+    color:rgb(78, 77, 77);
+}
+h1{
+    text-align: center;
+    border-bottom: rgb(78, 77, 77) solid;
+    padding-top: 2%;
+}
+a.iconfb{
+    color:rgb(127, 129, 133);
+}
+a.iconfb:hover{
+    color: rgb(238, 226, 226);
+}
+a.iconins{
+    color:rgb(127, 129, 133);
+}
+a.iconins:hover{
+    color: rgb(238, 226, 226);
+}
+.d-block{
+    height: 500px;
+}
+div.content p{
+    font-size: 120%;
+    padding-top:4%;
+    text-align: justify;
+}
+div.content h4{
+    text-align: justify;
+    padding-top: 4%;
+}
+div.fashion img{
+    float: left;
+}
+div.fashions{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.fashion{
+    border-radius: 5%;
+    width: 48%;
+    margin: 1%;
+    overflow: hidden;
+}
+div.content{
+    width: 46%;
+    margin: 1%;
+}
+div.fashion img{
+    width: 100%;
+}
+
+div.news{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.new{
+    background-color: rgb(233, 230, 230);
+    border-radius: 5%;
+    width: 48%;
+    margin: 1%;
+    position: relative;
+}
+@keyframes doimau {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+div.title-new{
+    position: absolute;
+    background-color: red;
+    color: white;
+    right:2%;
+    top: 1%;
+    border-radius:0 25%;
+    animation: doimau 1.5s infinite;
+}
+div.new h3{
+    text-align: center;
+}
+div.new h4{
+    text-align: center;
+}
+div.hot h3{
+    text-align: center;
+}
+div.hot h4{
+    text-align: center;
+}
+div.new img{
+    width: 100%;
+}
+div.new img:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+div.img{
+    overflow: hidden;
+}
+div.hots{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.hot{
+    width: 48%;
+    margin: 1%;
+    position: relative;
+}
+div.hot img{
+    width: 100%;
+}
+div.hot img:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+h6{
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width:415px){
+   ul.menu >li{
+       display: none;
+   }
+   div.logo{
+    justify-content: space-between;
+    }
+   .text-center a{
+       display: block;
+   }
+   .subs:hover .sub{
+    display:block;
+   }
+   .sub li a{
+        text-decoration: none;
+        text-align: left;
+        font-size: 80%;
+   }
+   .sub li a:hover{
+       color: rgb(83, 78, 78);
+   }
+   .sub{
+    list-style-type: none;
+   }
+   div.fashion{
+    width: 99%;
+    margin: 1%;
+    }
+    div.content{
+        width: 97%;
+        margin: 3%;
+    }
+    .d-block{
+        height: 150px;
+    }
+    div.new{
+        width: 98%;
+    }
+    div.hot{
+        width: 98%;
+    }
+    div.item{
+        display: none;
+    }
+    .icon{
+        font-size: 10px;
+    }
+    div.cmt div{
+        display: none;
+    }
+}
+div.item a{
+    text-decoration: none;
+    color: white;
+}
+div.item a:hover{
+    color: rgb(194, 183, 183);
+}
+div.cmt{
+    display: flex;
+}
+div.form-cmt{
+    display: flex;
+    width: 100%;
+}
+div.cmt div{
+    padding: 1%;
+}
+div.form-cmt a{
+    text-decoration: none;
+}
+div.form-cmt img{
+    width: 100%;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+div.avt{
+    width: 9%;
+}
+div.form-1{
+    display: flex;
+    flex-direction: column;
+}
+div.images{
+    width: 50%;
+}
+div.content-cmt button{
+    padding: 14px;
+    background-color: black;
+    color: white;
+}
+div.content-cmt{
+    display: flex;
+}

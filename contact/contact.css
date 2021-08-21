@@ -1,0 +1,242 @@
+ 
+div.logo{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ div.text-center{
+     padding:1%;
+ }
+ .text-center a{
+     display: none;
+     text-decoration: none;
+     color: white;
+ }
+ .text-center .sub{
+     display: none;
+ }
+ul.menu{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   background-color:rgb(48, 46, 46);
+   display: flex;
+}
+ul.menu > li > a{
+   text-decoration: none;
+   display: block;
+   padding:10%;
+   color: white;
+   font-size: 120%;
+   text-align: center;
+}
+ul.menu > li{
+   width: 15%;
+}
+ul.menu > li > a:hover{
+   background-color: rgb(207, 207, 216) ;
+   color: rgb(10, 10, 10);
+}
+ul.menu{
+   justify-content:center;
+}
+
+.icon{
+    display:block;
+    position:fixed;
+    bottom:1%;
+    right:2%;
+    color: rgb(53, 51, 51);
+}
+.icon:hover{
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+
+.blog-title{
+    padding:1%;
+    margin-bottom: 1%;
+    font-size: 130%;
+    text-align: center;
+    line-height: 1;
+    color: #3d3e3f;
+}
+div.item{
+    width: 30%;
+    text-align-last: center;
+}
+div.items{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+div.iteam{
+    display:grid;
+}
+div.iteams{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div.y{
+    background-color: rgb(150, 146, 146);
+    padding: 5%;
+    position: relative;
+}
+div.submit{
+    position: absolute;
+    right: 10%;
+    bottom:5%;
+}
+input#information{
+    padding: 20px;
+    width: 300px;
+    height: 30px;
+}
+#submit{
+    width: 120px;
+    height: 40px;
+    background-color:rgb(75, 75, 74);
+}
+#submit1{
+    width: 120px;
+    height: 40px;
+    background-color:rgb(75, 75, 74);
+}
+div.submit1{
+    margin-left: 45%;
+    padding: 20px;
+}
+input#evaluate{
+    width: 30px;
+    height: 20px;
+}
+div.radio{
+    display:flex;
+    justify-content:space-evenly;
+}
+div.radios{
+    display:flex;
+    justify-content:space-evenly;
+}
+div.last{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+div.last1{
+    width: auto;
+}
+div.lasts{
+    display:flex;
+    background-color:black;
+    color: white;
+    padding: 2%;
+}
+h6{
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a.iconfb{
+    color:rgb(127, 129, 133);
+}
+a.iconfb:hover{
+    color: rgb(238, 226, 226);
+}
+a.iconins{
+    color:rgb(127, 129, 133);
+}
+a.iconins:hover{
+    color: rgb(238, 226, 226);
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+@media screen and (max-width:415px){
+    ul.menu >li{
+       display: none;
+   }
+   div.logo{
+    justify-content: space-between;
+    }
+   .text-center a{
+       display: block;
+   }
+   .subs:hover .sub{
+    display:block;
+   }
+   .sub li a{
+        text-decoration: none;
+        text-align: left;
+        font-size: 80%;
+   }
+   .sub li a:hover{
+       color: rgb(83, 78, 78);
+   }
+   .sub{
+    list-style-type: none;
+   }
+   div.last{
+       display: none;
+   }
+   .icon{
+       font-size: 10px;
+   }
+   .blog-title h2{
+       font-size: 80%;
+   }
+   div.item{
+       width: 100%;
+   }
+   div.item i{
+       font-size: 35px;
+   }
+   div.item h3{
+       font-size: 15px;
+   }
+   div.item h3 i{
+       font-size: 16px;
+   }
+   div.item h2{
+       font-size: 20px;
+   }
+   div.submit{
+       bottom: 4%;
+       right: 35%;
+   }
+   div.y{
+       padding-bottom: 18%;
+   }
+   .radio h3{
+       font-size: 12px;
+   }
+   input#evaluate{
+        width: 20px;
+        height: 12px;
+    }
+    #submit1{
+        width: 100px;
+        height: 30px;
+        background-color:rgb(75, 75, 74);
+    }
+    div.submit1{
+        margin-left: 30%;
+        padding: 10px;
+    }
+ }
+ div.last a{
+    text-decoration: none;
+    color: white;
+}
+div.last a:hover{
+    color: rgb(97, 92, 92);
+}

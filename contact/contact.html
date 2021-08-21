@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converse</title>
+    <link rel="SHORTCUT ICON" href="https://www.converse.com.vn/catalog/view/theme/default/images/favicon.ico">
+    <link href="/contact/contact.css" rel="stylesheet" />
+    <script src="/js/index.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body name="top">
+  <div class="logo">
+    <div class="text-center">
+      <img src="https://www.converse.com.vn/pictures/catalog/logo/newlogo-160x30.png" alt="Converse"/>
+    </div>
+    <ul class="text-center subs">
+      <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+        <ul class = "sub">
+            <li>
+                <a href="http://127.0.0.1:5500/index.html">TRANG CHỦ</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/blog/blog.html#top">BLOG</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/information/information.html">SẢN PHẨM</a>
+             </li>
+            <li>
+                <a href="http://127.0.0.1:5500/contact/contact.html">LIÊN HỆ</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/payment/payment.html"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+    </ul>
+  </div>
+        <nav>
+            <ul class = "menu">
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html">TRANG CHỦ</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/blog/blog.html#top">BLOG</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/information/information.html">SẢN PHẨM</a>
+                 </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/contact/contact.html">LIÊN HỆ</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/payment/payment.html"><i class="fas fa-shopping-cart"></i> GIỎ HÀNG</a>
+                  </li>
+            </ul>
+        </nav>
+    <img src="https://www.converse.com.vn/pictures/catalog/banner/men/womenasscessories.jpg" style="width:100%"/>
+    <div class="blog-title">
+        <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
+    </div>
+    <section>
+        <div class="items">
+            <div class="item">
+                <i class="fas fa-mobile-alt fa-5x"></i>
+                <h2>Điện Thoại</h2>
+                <h3><i class="fas fa-phone-alt"></i> 0966287704</h3>
+                <h3><i class="fas fa-phone-alt"></i> 0985334013</h3>
+            </div>
+            <div class="item">
+                <i class="fas fa-envelope-open-text fa-5x"></i>
+                <h2>Email</h2>
+                <h3><i class="fas fa-at"></i> 2051052072lam@ou.edu.vn</h3>
+                <h3><i class="fas fa-at"></i> 2051052150vi@ou.edu.vn</h3>
+            </div>
+            <div class="item">
+                <i class="fas fa-map-marker-alt fa-5x"></i>
+                <h2>Địa chỉ</h2>
+                <h3>44B Trần Nhật Duật, tp PleiKu, tỉnh Gia Lai</h3>
+            </div>
+        </div>
+    </section>
+    <div class="y"> 
+        <div class="blog-title">
+            <h2>ĐÓNG GÓP Ý KIẾN CHO CHÚNG TÔI</h2>
+        </div>
+        <section>
+            <div class="iteams">
+                <div class="iteam">
+                    <input type="text" id="information" placeholder="Họ Và Tên"/>
+                    <input type="number" id="information" placeholder="Số điện thoại"/>
+                    <input type="mailto" id="information" placeholder="Email"/>
+                </div>
+                <textarea placeholder="Nội Dung" rows="2px" cols="80px"></textarea>
+             </div>
+             <div class="submit">
+                    <input type="submit" id="submit" value="Gửi" onclick="notification(this)"/>
+            </div>
+        </section>
+    </div>
+    <div class="blog-title">
+        <h2>HÃY ĐÁNH GIÁ DỊCH VỤ CỦA CHÚNG TÔI</h2>
+    </div>
+    <section>
+    <div class="radios">
+    <div class="radio">
+    <input type="radio"  name="đánh giá" id="evaluate" checked/>
+    <h3>   Rất Hài Lòng</h3>
+    </div>
+    <div class="radio">
+    <input type="radio" name="đánh giá" id="evaluate"/>
+    <h3>  Hài Lòng</h3>
+    </div>
+    <div class="radio">
+    <input type="radio" name="đánh giá" id="evaluate"/>
+    <h3>  Chưa Hài Lòng</h3>
+    </div>
+    </div>
+    </section>
+    <div class="submit1">
+        <input type="submit" id="submit1" value="Đánh Giá" onclick="notification(this)"/>
+    </div>
+    <section>
+      <div class="lasts">
+        <div class="last">
+          <a href="http://127.0.0.1:5500/information/information.html"><h6>WOMEN</h6></a>
+        </div>
+        <div class="last">
+          <a href="http://127.0.0.1:5500/information/information.html"><h6>MEN</h6></a>
+        </div>
+        <div class="last">
+          <a href="http://127.0.0.1:5500/information/information.html"><h6>KID</h6></a>
+        </div>
+        <div class="last1">
+          <h6>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ LÂM VI</h6>
+          <p><i class="fas fa-map-marker-alt"></i> 44B Trần Nhật Duật, tp PleiKu, tỉnh Gia Lai</p>
+          <p><i class="fas fa-phone-alt"></i> 0966287704<p>
+          <p><i class="fas fa-at"></i> 2051052150vi@ou.edu.vn</p>
+            <a href="https://www.facebook.com/Lam212002" target="blank" class="iconfb"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/vanlam_2002/" target="blank" class="iconins"><i class="fab fa-instagram fa-2x"></i></i></a>
+        </div>
+      </div>
+    </section>
+    <div>
+        <a href="#top" class="icon"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
+    </div>
+</body>
+</html>
